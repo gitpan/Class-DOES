@@ -1,0 +1,27 @@
+--- #YAML:1.0
+name:               Class-DOES
+version:            1.00
+abstract:           Provide a simple ->DOES override
+author:
+    - Ben Morrow <ben@morrow.me.uk>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    perl:          5.006001
+    Scalar::Util:  1.00
+    Test::More:    0.45
+resources:
+    bugtracker:  http://rt.cpan.org/NoAuth/Bugs.html?Dist=Class-DOES
+    repository:  http://github.com/mauzo/Class-DOES
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.50
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
